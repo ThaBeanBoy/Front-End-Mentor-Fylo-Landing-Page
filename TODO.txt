@@ -1,0 +1,12 @@
+>< Initialise gatsby project
+
+<> Install Tailwind
+
+<> Make layout component
+
+<> Make index component
+
+<> Make 404 component
+
+<> Update the README
+
