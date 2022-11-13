@@ -12,5 +12,6 @@ module.exports = {
         component: `${__dirname}/src/components/layout.jsx`,
       },
     },
+    'gatsby-plugin-postcss',
   ],
 };
