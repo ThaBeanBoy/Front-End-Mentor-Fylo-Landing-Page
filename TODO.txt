@@ -1,12 +1,37 @@
 >< Initialise gatsby project
 
-<> Install Tailwind
+>< Install Tailwind
+
+<> Implement style-guide
 
 <> Make layout component
+    <> Import logo
+    <> Make nav
 
 <> Make index component
+    <> Landing
+        <> H1
+        <> Message
+        <> Actionables
+            <> Iput
+            <> CTA
+        <> Hero Image
+        <> Position the elements
+
+    <> Second section
+        <> H2
+        <> Sub message
+        <> testimonial card - make it a component for fun
+        <> Hero Image
+        <> Position the elements
+
+    <> Early access section
+        <> 
+
 
 <> Make 404 component
+    <> H1 404 Message
+    <> Sub message
 
 <> Update the README
 
