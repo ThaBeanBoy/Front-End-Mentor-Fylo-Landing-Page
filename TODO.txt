@@ -2,7 +2,7 @@
 
 >< Install Tailwind
 
-<> Implement style-guide
+>< Implement style-guide
 
 <> Make layout component
     <> Import logo
