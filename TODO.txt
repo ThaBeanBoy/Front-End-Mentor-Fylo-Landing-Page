@@ -5,8 +5,12 @@
 >< Implement style-guide
 
 <> Make layout component
-    <> Import logo
-    <> Make nav
+    >< Import logo
+    >< Make nav
+    <> Hover color change
+    <> Make mobile nav
+        >< Make basic structure
+        <> Animate mobile nav
 
 <> Make index component
     <> Landing
