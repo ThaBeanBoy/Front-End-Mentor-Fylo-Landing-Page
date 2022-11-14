@@ -60,11 +60,11 @@ function Layout({ children }) {
       <main>{children}</main>
 
       {showMobileNav ? (
-        <motion.div
+        <div
           id='mobile-nav-wrapper'
           className='fixed top-0 left-0 w-screen h-screen bg-light-gray/50 z-10 min-desktop-width:hidden'
         >
-          <motion.main className='absolute top-0 right-0 h-screen min-w-[200px] bg-light-grayish-blue flex flex-col items-end pt-[32px] pr-[32px]'>
+          <main className='absolute top-0 right-0 h-screen min-w-[200px] bg-light-grayish-blue flex flex-col items-end pt-[32px] pr-[32px]'>
             <button
               className='mb-[32px]'
               onClick={() => setShowMobileNav(false)}
@@ -73,8 +73,8 @@ function Layout({ children }) {
             </button>
 
             <ul className='flex flex-col items-end'>{NavLinks}</ul>
-          </motion.main>
-        </motion.div>
+          </main>
+        </div>
       ) : (
         <></>
       )}
