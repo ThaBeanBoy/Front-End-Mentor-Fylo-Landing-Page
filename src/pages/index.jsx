@@ -1,10 +1,14 @@
 import React from 'react';
-import { Landing } from '../components/IndexPageComponents/IndexPageComponents';
+import {
+  Landing,
+  SecondSection,
+} from '../components/IndexPageComponents/IndexPageComponents';
 
 const IndexPage = () => {
   return (
     <>
       <Landing />
+      <SecondSection />
     </>
   );
 };

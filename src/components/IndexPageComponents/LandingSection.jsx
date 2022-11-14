@@ -51,7 +51,7 @@ const Landing = () => {
             />
             <p
               id='err-message'
-              className='text-[12px] text-err pl-[20px] mt-[8px] absolute'
+              className='text-[12px] text-err pl-[20px] mt-[8px] actionables-breakpoint:absolute'
             >
               {showingSubMessage ? 'Please check your email' : ''}
             </p>
