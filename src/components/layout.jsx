@@ -35,7 +35,7 @@ function Layout({ children }) {
 
   return (
     <div id='App' className='w-screen min-h-screen'>
-      <header className='flex items-center justify-between p-[32px] max-w-[1280px] mx-auto'>
+      <header className='flex items-center justify-between p-[32px] max-w-[1280px] mx-auto sticky top-0 left-0 w-screen'>
         <Link to='/'>
           <img src={logo} alt='logo image' className='w-[116px] sm:w-auto' />
         </Link>

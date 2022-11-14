@@ -11,16 +11,31 @@
     <> Make mobile nav
         >< Make basic structure
         <> Animate mobile nav
+        <> If user clicks outside the nav box, close the nav box
+    <> Put svg images in static folder
+    <> Get svg images through the use of `${window.location.href}logo.svg`
+    <> Add Home link to nav
+    <> Disbale scroll when nav is open
 
 <> Make index component
-    <> Landing
-        <> H1
-        <> Message
-        <> Actionables
-            <> Iput
-            <> CTA
-        <> Hero Image
-        <> Position the elements
+    >< Landing
+        >< Hero Image
+        >< H1
+        >< Message
+        >< Actionables
+            >< Input
+            >< CTA
+        >< Position the elements
+
+        >< Desktop version
+
+        >< Active states
+            >< Get started button
+                >< color
+                >< shadow box
+            >< Error
+                >< Compare with regex
+                >< Display error message
 
     <> Second section
         <> H2
@@ -29,8 +44,20 @@
         <> Hero Image
         <> Position the elements
 
+        <> Desktop version
+
+        <> Active states
+
     <> Early access section
-        <> 
+        
+
+        <> Desktop version
+
+        <> Active states
+
+    <> Uninstall image related plugins
+
+    <> Fixt the typography
 
 
 <> Make 404 component

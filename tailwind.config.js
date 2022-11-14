@@ -8,7 +8,12 @@ module.exports = {
     screens: {
       mobile: '375px',
       desktop: '1440px',
+      // Layout breakpoint
       'min-desktop-width': '542px',
+
+      // index breakpoints
+      'landing-breakpoint': '1128px',
+      'actionables-breakpoint': '536px',
     },
 
     colors: {
@@ -21,6 +26,8 @@ module.exports = {
       // Neutral
       'light-grayish-blue': 'hsl(240, 75%, 98%)',
       'light-gray': 'hsl(0, 0%, 75%)',
+
+      err: 'hsl(339, 83%, 64%)',
     },
 
     fontFamily: {
