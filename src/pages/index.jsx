@@ -2,11 +2,7 @@ import * as React from 'react';
 import Layout from '../components/layout';
 
 const IndexPage = () => {
-  return (
-    <Layout>
-      <h1 className='text-3xl font-bold underline'>Bare bones</h1>
-    </Layout>
-  );
+  return <></>;
 };
 
 export default IndexPage;
