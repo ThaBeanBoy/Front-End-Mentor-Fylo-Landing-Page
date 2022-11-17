@@ -50,7 +50,7 @@
 
         >< Sort out image
 
-        <> Delete old image component
+        >< Delete old image component & gatsby-source-filesystem
 
     <> Early access section
         <> H2
