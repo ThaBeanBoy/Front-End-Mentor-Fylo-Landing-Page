@@ -1,30 +1,31 @@
-import React, { useState } from 'react';
-import { Link } from 'gatsby';
-import { motion } from 'framer-motion';
+import React, { useState } from "react";
+import { Link } from "gatsby";
+import { motion } from "framer-motion";
 
-import logo from './logo.svg';
-import hamburger from './hamburger.svg';
-import close from './close.svg';
+import logo from "./logo.svg";
+import hamburger from "./hamburger.svg";
+import close from "./close.svg";
 
 const links = [
   {
-    title: 'Features',
-    link: '/features',
+    title: "Features",
+    link: "/features",
   },
   {
-    title: 'Team',
-    link: '/team',
+    title: "Team",
+    link: "/team",
   },
   {
-    title: 'Sign In',
-    link: '/sign-in',
+    title: "Sign In",
+    link: "/sign-in",
   },
 ];
 
-const NavLinks = links.map(({ title, link }) => (
+const NavLinks = links.map(({ title, link }, index) => (
   <Link
+    key={index}
     to={link}
-    className={`min-desktop-width:pr-[34px] py-[8px] last:pb-0 first:pt-0 last:pr-0 hover:decoration-[#bf5050]`}
+    className={`py-[8px] first:pt-0 last:pb-0 last:pr-0 hover:decoration-[#bf5050] min-desktop-width:pr-[34px]`}
   >
     {title}
   </Link>
@@ -34,25 +35,25 @@ function Layout({ children }) {
   const [showMobileNav, setShowMobileNav] = useState(false);
 
   return (
-    <div id='App' className='w-screen min-h-screen'>
-      <header className='flex bg-[white] items-center justify-between p-[32px] max-w-[1280px] mx-auto sticky top-0 left-0 w-screen'>
-        <Link to='/'>
-          <img src={logo} alt='logo image' className='w-[116px] sm:w-auto' />
+    <div id="App" className="min-h-screen w-screen">
+      <header className="sticky top-0 left-0 mx-auto flex w-screen max-w-[1280px] items-center justify-between bg-[white] p-[32px]">
+        <Link to="/">
+          <img src={logo} alt="logo image" className="sm:w-auto w-[116px]" />
         </Link>
 
-        <nav className='peer-desktop-nav hidden min-desktop-width:block'>
+        <nav className="peer-desktop-nav hidden min-desktop-width:block">
           {NavLinks}
         </nav>
 
         <button
-          className='cursor-pointer block min-desktop-width:hidden'
+          className="block cursor-pointer min-desktop-width:hidden"
           onClick={() => setShowMobileNav(true)}
         >
           <img
             src={hamburger}
-            alt='hamburger icon'
-            width='32px'
-            height='32px'
+            alt="hamburger icon"
+            width="32px"
+            height="32px"
           />
         </button>
       </header>
@@ -61,18 +62,18 @@ function Layout({ children }) {
 
       {showMobileNav ? (
         <div
-          id='mobile-nav-wrapper'
-          className='fixed top-0 left-0 w-screen h-screen bg-light-gray/50 z-10 min-desktop-width:hidden'
+          id="mobile-nav-wrapper"
+          className="fixed top-0 left-0 z-10 h-screen w-screen bg-light-gray/50 min-desktop-width:hidden"
         >
-          <main className='absolute top-0 right-0 h-screen min-w-[200px] bg-light-grayish-blue flex flex-col items-end pt-[32px] pr-[32px]'>
+          <main className="absolute top-0 right-0 flex h-screen min-w-[200px] flex-col items-end bg-light-grayish-blue pt-[32px] pr-[32px]">
             <button
-              className='mb-[32px]'
+              className="mb-[32px]"
               onClick={() => setShowMobileNav(false)}
             >
-              <img src={close} alt='close image' width='32px' height='32px' />
+              <img src={close} alt="close image" width="32px" height="32px" />
             </button>
 
-            <ul className='flex flex-col items-end'>{NavLinks}</ul>
+            <ul className="flex flex-col items-end">{NavLinks}</ul>
           </main>
         </div>
       ) : (

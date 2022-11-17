@@ -17,7 +17,7 @@
     <> Add Home link to nav
     <> Disbale scroll when nav is open
 
-<> Make index component
+>< Make index component
     >< Landing
         >< Hero Image
         >< H1
@@ -38,26 +38,35 @@
                 >< Display error message
 
     <> Second section
-        <> H2
-        <> Sub message
-        <> testimonial card - make it a component for fun
-        <> Hero Image
-        <> Position the elements
+        >< H2
+        >< Sub message
+        >< testimonial card - make it a component for fun
+        >< Hero Image
+        >< Position the elements
 
-        <> Desktop version
+        >< Desktop version
 
-        <> Active states
+        >< Active states
+
+        <> Sort out image
 
     <> Early access section
-        
+        <> H2
+        <> Paragraph
+        <> Input
+        <> Get started button        
 
         <> Desktop version
 
         <> Active states
+            <> Erro component
 
-    <> Uninstall image related plugins
+    <> Footer
+        <> logo
+        <> footer contents
+        <> Add link to fiver gigs
 
-    <> Fixt the typography
+    <> Fix the typography
 
 
 <> Make 404 component

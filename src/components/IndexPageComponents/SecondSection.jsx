@@ -68,7 +68,7 @@ const SecondSection = () => {
               ))}
               <Link
                 to="/works"
-                className="mb-[56px] border-b-2 border-solid border-moderate-cyan pb-[8px] text-moderate-cyan
+                className="mb-[56px] border-b-2 border-solid border-moderate-cyan pb-[8px] text-moderate-cyan hover:brightness-125
                 second-section-breakpoint:mb-[44px]"
               >
                 <p className="mr-[8px] inline">See how Fylo works</p>{" "}
@@ -87,6 +87,8 @@ const SecondSection = () => {
             </main>
           </div>
         </div>
+
+        {/* Put this code anywhere in the body of your page where you want the badge to show up. */}
       </section>
     </>
   );
