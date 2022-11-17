@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const Landing = () => {
   const [inputString, setInputString] = useState('');
@@ -10,10 +10,6 @@ const Landing = () => {
     );
     setShowSubMessage(!inputTest);
   };
-
-  useEffect(() => {
-    console.log(inputString);
-  }, [inputString]);
 
   return (
     <section
