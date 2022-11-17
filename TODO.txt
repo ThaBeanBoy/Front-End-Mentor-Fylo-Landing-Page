@@ -50,6 +50,8 @@
 
         <> Sort out image
 
+        <> Delete old image component
+
     <> Early access section
         <> H2
         <> Paragraph

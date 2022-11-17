@@ -12,16 +12,17 @@ module.exports = {
         component: `${__dirname}/src/components/layout.jsx`,
       },
     },
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
 
-    // Image processing
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images/`,
-      },
-    },
+    // Image plugins
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `images`,
+    //     path: `${__dirname}/src/images/`,
+    //   },
+    // },
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
   ],

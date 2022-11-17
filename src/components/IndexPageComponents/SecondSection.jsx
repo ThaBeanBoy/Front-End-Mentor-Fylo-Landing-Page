@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, graphql, useStaticQuery } from "gatsby";
-import Img from "gatsby-image";
+import { Link } from "gatsby";
 import Testimonial from "../testimonial";
 
 const kylesTestimonee =
@@ -11,20 +10,6 @@ const paragraphs = [
 ];
 
 const SecondSection = () => {
-  const data = useStaticQuery(graphql`
-    query MyQuery {
-      file(relativePath: { eq: "avatar-testimonial.jpg" }) {
-        childrenImageSharp {
-          fixed(width: 34, height: 34) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-    }
-  `);
-
-  console.log(data.file.childrenImageSharp);
-
   return (
     <>
       <section className="">
@@ -39,11 +24,11 @@ const SecondSection = () => {
           className="hidden w-screen mobile:block"
         />
 
-        <div id="content-wrapper" className=" bg-light-grayish-blue">
+        <div id="content-wrapper" className="bg-light-grayish-blue">
           <div
             id="content"
-            className="mx-auto flex max-w-[1280px] flex-col 
-            items-center justify-between px-[16px] second-section-breakpoint:mx-[32px] second-section-breakpoint:flex-row-reverse second-section-breakpoint:items-center"
+            className="flex max-w-[1280px] flex-col 
+            items-center justify-between px-[16px] second-section-breakpoint:mx-auto second-section-breakpoint:flex-row-reverse second-section-breakpoint:items-center"
           >
             <img
               src="./illustration-2.svg"
@@ -83,12 +68,12 @@ const SecondSection = () => {
                 name="Kyle Burton"
                 title="Founder & CEO, Huddle"
                 testimonee={kylesTestimonee}
+                // imgSrc="./images/avatar-testimonial.jpg"
+                imgAlt="Kyle Burton img"
               />
             </main>
           </div>
         </div>
-
-        {/* Put this code anywhere in the body of your page where you want the badge to show up. */}
       </section>
     </>
   );

@@ -1,6 +1,7 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
-const Testimonial = ({ name, title, testimonee }) => {
+const Testimonial = ({ name, title, testimonee, imgSrc, imgAlt }) => {
   return (
     <div
       id="testimonial-card"
@@ -12,11 +13,15 @@ const Testimonial = ({ name, title, testimonee }) => {
           {testimonee}
         </p>
         <div id="person" className="flex items-center">
-          {/* <Img fixed={data.file.childImageSharp.fixed} /> */}
-          <div
-            id="dummy-image"
-            className="mr-[8px] h-[34px] w-[34px] rounded-full bg-desaturated-blue"
-          ></div>
+          <StaticImage
+            className="mr-[8px] rounded-full"
+            src="../../src/images/avatar-testimonial.jpg"
+            alt={imgAlt}
+            placeholder="blurred"
+            layout="fixed"
+            width={34}
+            height={34}
+          />
           <div id="details">
             <h6 className="font-bold">{name}</h6>
             <p>{title}</p>
