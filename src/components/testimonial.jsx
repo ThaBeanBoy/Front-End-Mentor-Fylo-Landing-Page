@@ -5,7 +5,7 @@ const Testimonial = ({ name, title, testimonee, imgSrc, imgAlt }) => {
   return (
     <div
       id="testimonial-card"
-      className="mb-[116px] w-[404px] rounded-[8px] bg-[white] px-[38px] py-[32px] text-very-dark-blue "
+      className="mb-[116px] w-[100%] max-w-[404px] rounded-[8px] bg-[white] px-[38px] py-[32px] text-very-dark-blue "
     >
       <img src="./icon-quotes.svg" alt="qutaation mark" className="mb-[22px]" />
       <main>

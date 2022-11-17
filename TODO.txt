@@ -48,7 +48,7 @@
 
         >< Active states
 
-        <> Sort out image
+        >< Sort out image
 
         <> Delete old image component
 
@@ -66,7 +66,10 @@
     <> Footer
         <> logo
         <> footer contents
-        <> Add link to fiver gigs
+        
+    <> Avertise yourself
+        <> Footer
+        <> Mobile nav
 
     <> Fix the typography
 
