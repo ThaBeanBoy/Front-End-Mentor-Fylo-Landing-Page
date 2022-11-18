@@ -17,6 +17,15 @@
     <> Add Home link to nav
     <> Disbale scroll when nav is open
     <> Make the white backgroud cover the whole page
+    <> Make header px 16 when in mobile
+
+    <> Footer (in the layout component)
+        <> logo
+        <> footer contents
+        
+    <> Avertise yourself
+        <> Footer
+        <> Mobile nav
 
 >< Make index component
     >< Landing
@@ -53,7 +62,7 @@
 
         >< Delete old image component & gatsby-source-filesystem
 
-    <> Early access section
+    >< Early access section
         >< H2
         >< Paragraph
                 
@@ -61,26 +70,10 @@
 
         >< Desktop version
 
-        <> Style form:
-            <> Style for desktop
-            <> Make form take up whole space when in mobile
-
-        <> Fix default err color of the mini form component
-
-    <> Footer
-        <> logo
-        <> footer contents
-        
-    <> Avertise yourself
-        <> Footer
-        <> Mobile nav
-
-    <> Fix the typography
-
+<> Fix the typography
 
 <> Make 404 component
     <> H1 404 Message
     <> Sub message
 
 <> Update the README
-

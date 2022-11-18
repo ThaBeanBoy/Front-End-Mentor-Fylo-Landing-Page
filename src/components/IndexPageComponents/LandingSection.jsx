@@ -25,7 +25,7 @@ const Landing = () => {
 
         <MiniForm
           btnText="Get Started"
-          className="actionables-breakpoint:39px mb-[39px]"
+          className="actionables-breakpoint:39px mb-[128px]"
         />
       </main>
     </section>
