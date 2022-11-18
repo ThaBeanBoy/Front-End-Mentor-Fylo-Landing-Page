@@ -52,7 +52,7 @@ function Layout({ children }) {
   return (
     <div id="App" className="min-h-screen w-screen">
       <div id="wrapper" className="sticky top-0 left-0 bg-[white]">
-        <header className="mx-auto flex w-screen max-w-[1280px] items-center justify-between p-[32px]">
+        <header className="mx-auto flex w-screen max-w-[1280px] items-center justify-between py-[32px] px-[16px] min-desktop-width:px-[32px]">
           <Link to="/">
             {/* <img src={logo} alt="logo image" className="sm:w-auto w-[116px]" /> */}
             <StaticImage

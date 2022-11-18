@@ -9,7 +9,7 @@
     >< Make nav
     >< Hover color change
     >< Make the white backgroud cover the whole page
-    <> Make header px 16 when in mobile
+    >< Make header px 16 when in mobile
 
     <> Footer (in the layout component)
         <> logo
