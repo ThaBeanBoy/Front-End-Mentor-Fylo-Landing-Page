@@ -7,16 +7,8 @@
 <> Make layout component
     >< Import logo
     >< Make nav
-    <> Hover color change
-    <> Make mobile nav
-        >< Make basic structure
-        <> Animate mobile nav
-        <> If user clicks outside the nav box, close the nav box
-    <> Put svg images in static folder
-    <> Get svg images through the use of `${window.location.href}logo.svg`
-    <> Add Home link to nav
-    <> Disbale scroll when nav is open
-    <> Make the white backgroud cover the whole page
+    >< Hover color change
+    >< Make the white backgroud cover the whole page
     <> Make header px 16 when in mobile
 
     <> Footer (in the layout component)
@@ -75,5 +67,10 @@
 <> Make 404 component
     <> H1 404 Message
     <> Sub message
+
+<> Add animations
+    <> Animate the hover
+    <> Animate image
+    <> Animate on scroll
 
 <> Update the README

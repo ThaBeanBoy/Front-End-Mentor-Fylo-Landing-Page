@@ -9,7 +9,7 @@ module.exports = {
       mobile: "375px",
       desktop: "1440px",
       // Layout breakpoint
-      "min-desktop-width": "542px",
+      "min-desktop-width": "610px",
 
       // index breakpoints
       "landing-breakpoint": "1128px",
@@ -34,6 +34,7 @@ module.exports = {
       "light-gray": "hsl(0, 0%, 75%)",
 
       err: "hsl(339, 83%, 64%)",
+      cool: "#17b019",
     },
 
     fontFamily: {

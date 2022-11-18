@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import Testimonial from "../testimonial";
+import Testimonial from "./testimonial";
 
 const kylesTestimonee =
   "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.";
