@@ -54,15 +54,18 @@
         >< Delete old image component & gatsby-source-filesystem
 
     <> Early access section
-        <> H2
-        <> Paragraph
-        <> Input
-        <> Get started button        
+        >< H2
+        >< Paragraph
+                
+        >< Make miniform componen
 
-        <> Desktop version
+        >< Desktop version
 
-        <> Active states
-            <> Erro component
+        <> Style form:
+            <> Style for desktop
+            <> Make form take up whole space when in mobile
+
+        <> Fix default err color of the mini form component
 
     <> Footer
         <> logo

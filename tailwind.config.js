@@ -17,6 +17,9 @@ module.exports = {
 
       // second section breakpoints
       "second-section-breakpoint": "1180px",
+
+      // early access breakpoint
+      "early-access-breakpoint": "1012px",
     },
 
     colors: {

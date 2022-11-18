@@ -6,8 +6,6 @@ import {
 } from "../components/IndexPageComponents/IndexPageComponents";
 
 const IndexPage = () => {
-  // const myExtScript = require("https://widgets.fiverr.com/api/v1/seller/gibbs_dev?widget_id=c23d5e7d-5d00-4739-a9ef-71a1bc6a5d30");
-
   return (
     <>
       <Landing />
