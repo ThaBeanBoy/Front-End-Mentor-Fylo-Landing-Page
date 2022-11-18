@@ -16,6 +16,7 @@
     <> Get svg images through the use of `${window.location.href}logo.svg`
     <> Add Home link to nav
     <> Disbale scroll when nav is open
+    <> Make the white backgroud cover the whole page
 
 >< Make index component
     >< Landing
@@ -37,7 +38,7 @@
                 >< Compare with regex
                 >< Display error message
 
-    <> Second section
+    >< Second section
         >< H2
         >< Sub message
         >< testimonial card - make it a component for fun
