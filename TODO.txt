@@ -66,10 +66,6 @@
 
         >< Desktop version
 
-<> Make 404 component
-    <> H1 404 Message
-    <> Sub message
-
 <> Remove all IMG tags
 
 <> Add animations
