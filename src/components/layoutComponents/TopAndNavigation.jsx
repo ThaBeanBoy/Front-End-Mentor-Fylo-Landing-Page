@@ -47,7 +47,7 @@ export default function TopAndNavigation() {
 
   return (
     <>
-      <div id="header-wrapper" className="sticky top-0 left-0 bg-[white]">
+      <div id="header-wrapper" className="sticky top-0 left-0 z-50 bg-[white]">
         <header className="mx-auto flex w-screen max-w-[1280px] items-center justify-between py-[32px] px-[16px] min-desktop-width:px-[32px]">
           <Link to="/">
             <StaticImage

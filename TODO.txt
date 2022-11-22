@@ -11,15 +11,17 @@
     >< Make the white backgroud cover the whole page
     >< Make header px 16 when in mobile
 
-    <> Footer (in the layout component)
+    >< Footer (in the layout component)
         >< logo
         >< footer contents
         >< Attribution
         
-    <> Avertise yourself
+    >< Avertise yourself
         >< Top Navigation
-        <> Footer
+        >< Footer
         >< Mobile nav
+
+    <> There seem to be things that hover over the header
 
 >< Make index component
     >< Landing
@@ -69,8 +71,6 @@
     <> Sub message
 
 <> Remove all IMG tags
-
-<> Testimonial image seems to hover above header
 
 <> Add animations
     <> Animate the hover
