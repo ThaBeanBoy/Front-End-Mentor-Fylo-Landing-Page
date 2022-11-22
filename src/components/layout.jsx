@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
+import { GrFacebookOption } from "react-icons/gr";
+import { BsTwitter } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 
 const links = [
   {
@@ -156,26 +159,26 @@ function Layout({ children }) {
           </div>
 
           <div id="social-icons" className="flex w-[100%] justify-center">
-            <a href="#">
-              <StaticImage
-                src="../images/icon-facebook.svg"
-                alt="facebook"
-                width={40}
-                height={40}
-              />
-              <StaticImage
-                src="../images/icon-twitter.svg"
-                alt="facebook"
-                className="mx-[16px]"
-                width={40}
-                height={40}
-              />
-              <StaticImage
-                src="../images/icon-instagram.svg"
-                alt="facebook"
-                width={40}
-                height={40}
-              />
+            <a
+              href="#"
+              className="rounded-full border border-solid border-[white] p-[8px] text-[24px] text-[white] 
+                      hover:border-bright-blue hover:text-bright-blue"
+            >
+              <GrFacebookOption />
+            </a>
+            <a
+              href="#"
+              className="mx-[8px] rounded-full border border-solid border-[white] p-[8px] text-[24px] text-[white] 
+              hover:border-bright-blue hover:text-bright-blue"
+            >
+              <BsTwitter />
+            </a>
+            <a
+              href="#"
+              className="rounded-full border border-solid border-[white] p-[8px] text-[24px] text-[white] 
+              hover:border-bright-blue hover:text-bright-blue"
+            >
+              <BsInstagram />
             </a>
           </div>
         </main>
@@ -189,8 +192,11 @@ function Layout({ children }) {
             Frontend Mentor
           </a>
           . Coded by{" "}
-          <a href="#" className="text-moderate-cyan">
-            Your Name Here
+          <a
+            href="https://www.frontendmentor.io/profile/ThaBeanBoy"
+            className="text-moderate-cyan"
+          >
+            ThaBeanBoy
           </a>
           .
         </p>
