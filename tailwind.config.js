@@ -20,6 +20,9 @@ module.exports = {
 
       // early access breakpoint
       "early-access-breakpoint": "1012px",
+
+      // footer breakpoint
+      "footer-breakpoint": "588px",
     },
 
     colors: {
