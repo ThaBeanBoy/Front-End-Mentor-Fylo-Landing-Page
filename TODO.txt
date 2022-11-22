@@ -21,7 +21,7 @@
         >< Footer
         >< Mobile nav
 
-    <> There seem to be things that hover over the header
+    >< There seem to be things that hover over the header
 
 >< Make index component
     >< Landing
