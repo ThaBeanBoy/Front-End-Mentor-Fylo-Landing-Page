@@ -4,7 +4,7 @@
 
 >< Implement style-guide
 
-<> Make layout component
+>< Make layout component
     >< Import logo
     >< Make nav
     >< Hover color change
