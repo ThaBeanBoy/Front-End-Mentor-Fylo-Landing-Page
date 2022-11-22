@@ -47,7 +47,7 @@ export default function Footer() {
             </a>
           </div>
 
-          <div id="link-groups" className="mb-[72px]">
+          <div id="link-groups" className="mb-[72px] footer-breakpoint:mb-0">
             {[
               [
                 {
@@ -86,7 +86,7 @@ export default function Footer() {
                 {group.map(({ title, link }) => (
                   <Link
                     to={link}
-                    className="mb-[32px] block text-[white] last:mb-0 footer-breakpoint:mb-[16px]"
+                    className="mb-[32px] block text-[white] last:mb-0 hover:text-bright-blue footer-breakpoint:mb-[16px]"
                   >
                     {title}
                   </Link>
@@ -122,7 +122,7 @@ export default function Footer() {
             </a>
           </div>
         </main>
-        <p className="mt-[32px] text-center text-[white]">
+        <p className="mt-[64px] text-center text-[white]">
           Challenge by{" "}
           <a
             href="https://www.frontendmentor.io?ref=challenge"
@@ -137,6 +137,13 @@ export default function Footer() {
             className="text-moderate-cyan"
           >
             ThaBeanBoy
+          </a>
+          {" - "}
+          <a
+            href="https://www.linkedin.com/in/tineyi-g-chipoyera-0948b9193/"
+            className="text-moderate-cyan"
+          >
+            LinkedIn
           </a>
           .
         </p>

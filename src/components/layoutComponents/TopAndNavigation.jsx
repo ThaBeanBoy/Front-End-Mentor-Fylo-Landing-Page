@@ -16,10 +16,9 @@ const links = [
     link: "/sign-in",
   },
   {
-    title: "My Fiver Gigs",
-    link: "https://www.fiverr.com/gibbs_dev?up_rollout=true",
+    title: "My LinkedIn",
+    link: "https://www.linkedin.com/in/tineyi-g-chipoyera-0948b9193/",
     a_tag: true,
-    color: "cool",
   },
 ];
 

@@ -13,13 +13,13 @@
 
     <> Footer (in the layout component)
         >< logo
-        <> footer contents
-        <> Attribution
+        >< footer contents
+        >< Attribution
         
     <> Avertise yourself
-        <> Top Navigation
+        >< Top Navigation
         <> Footer
-        <> Mobile nav
+        >< Mobile nav
 
 >< Make index component
     >< Landing
