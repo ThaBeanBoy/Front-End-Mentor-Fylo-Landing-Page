@@ -22,7 +22,7 @@ module.exports = {
       "early-access-breakpoint": "1012px",
 
       // footer breakpoint
-      "footer-breakpoint": "588px",
+      "footer-breakpoint": "760px",
     },
 
     colors: {

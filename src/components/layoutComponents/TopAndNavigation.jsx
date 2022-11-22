@@ -19,13 +19,13 @@ const links = [
     title: "My LinkedIn",
     link: "https://www.linkedin.com/in/tineyi-g-chipoyera-0948b9193/",
     a_tag: true,
+    bln_blank: true,
   },
 ];
 
-const NavLinks = links.map(({ title, link, a_tag, color }, index) => {
-  const styling_link = `capitalize py-[8px] first:pt-0 last:pb-0 last:pr-0 hover:text-${
-    color !== undefined ? color : "bright-blue"
-  } min-desktop-width:pr-[34px]`;
+const NavLinks = links.map(({ title, link, a_tag, bln_blank }, index) => {
+  const styling_link =
+    "capitalize py-[8px] first:pt-0 last:pb-0 last:pr-0 hover:text-bright-blue min-desktop-width:pr-[34px]";
 
   return !a_tag ? (
     <Link
@@ -36,7 +36,7 @@ const NavLinks = links.map(({ title, link, a_tag, color }, index) => {
       {title}
     </Link>
   ) : (
-    <a href={link} className={styling_link}>
+    <a href={link} className={styling_link} target={bln_blank ? "_blank" : ""}>
       {title}
     </a>
   );
@@ -47,7 +47,7 @@ export default function TopAndNavigation() {
 
   return (
     <>
-      <div id="header-wrapper" className="sticky top-0 left-0 z-50 bg-[white]">
+      <div id="header-wrapper" className="sticky top-0 left-0 z-40 bg-[white]">
         <header className="mx-auto flex w-screen max-w-[1280px] items-center justify-between py-[32px] px-[16px] min-desktop-width:px-[32px]">
           <Link to="/">
             <StaticImage
@@ -78,7 +78,7 @@ export default function TopAndNavigation() {
       {showMobileNav ? (
         <div
           id="mobile-nav-wrapper"
-          className="fixed top-0 left-0 z-10 h-screen w-screen bg-light-gray/50 min-desktop-width:hidden"
+          className="fixed top-0 left-0 z-50 h-screen w-screen bg-light-gray/50 min-desktop-width:hidden"
         >
           <main className="absolute top-0 right-0 flex h-screen min-w-[200px] flex-col items-end bg-light-grayish-blue pt-[32px] pr-[32px]">
             <button

@@ -9,7 +9,7 @@ import { BsInstagram } from "react-icons/bs";
 export default function Footer() {
   return (
     <div id="footer-wrapper" className="bg-very-dark-blue">
-      <footer className=" mx-auto max-w-[1280px] px-[16px] py-[96px]">
+      <footer className=" mx-auto max-w-[1280px] px-[16px] py-[96px] footer-breakpoint:px-[32px]">
         <StaticImage
           src="../../images/logo-footer.svg"
           className="mb-[60px]"
@@ -47,53 +47,51 @@ export default function Footer() {
             </a>
           </div>
 
-          <div id="link-groups" className="mb-[72px] footer-breakpoint:mb-0">
-            {[
-              [
-                {
-                  title: "about us",
-                  link: "/about-us",
-                },
-                {
-                  title: "jobs",
-                  link: "/jobs",
-                },
-                {
-                  title: "press",
-                  link: "/press",
-                },
-                {
-                  title: "blog",
-                  link: "/blog",
-                },
-              ],
-              [
-                {
-                  title: "contact us",
-                  link: "/contact-us",
-                },
-                {
-                  title: "terms",
-                  link: "/terms",
-                },
-                {
-                  title: "privacy",
-                  link: "/privacy",
-                },
-              ],
-            ].map((group) => (
-              <div id="group" className=" mb-[80px] last:mb-0">
-                {group.map(({ title, link }) => (
-                  <Link
-                    to={link}
-                    className="mb-[32px] block text-[white] last:mb-0 hover:text-bright-blue footer-breakpoint:mb-[16px]"
-                  >
-                    {title}
-                  </Link>
-                ))}
-              </div>
-            ))}
-          </div>
+          {[
+            [
+              {
+                title: "about us",
+                link: "/about-us",
+              },
+              {
+                title: "jobs",
+                link: "/jobs",
+              },
+              {
+                title: "press",
+                link: "/press",
+              },
+              {
+                title: "blog",
+                link: "/blog",
+              },
+            ],
+            [
+              {
+                title: "contact us",
+                link: "/contact-us",
+              },
+              {
+                title: "terms",
+                link: "/terms",
+              },
+              {
+                title: "privacy",
+                link: "/privacy",
+              },
+            ],
+          ].map((group) => (
+            <div id="group" className=" mb-[80px]">
+              {group.map(({ title, link }) => (
+                <Link
+                  to={link}
+                  className="mb-[32px] block text-[white] last:mb-0 hover:text-bright-blue footer-breakpoint:mb-[16px]"
+                >
+                  {title}
+                </Link>
+              ))}
+            </div>
+          ))}
 
           <div
             id="social-icons"
