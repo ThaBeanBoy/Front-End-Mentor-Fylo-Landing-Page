@@ -12,10 +12,12 @@
     >< Make header px 16 when in mobile
 
     <> Footer (in the layout component)
-        <> logo
+        >< logo
         <> footer contents
+        <> Attribution
         
     <> Avertise yourself
+        <> Top Navigation
         <> Footer
         <> Mobile nav
 
@@ -62,15 +64,18 @@
 
         >< Desktop version
 
-<> Fix the typography
-
 <> Make 404 component
     <> H1 404 Message
     <> Sub message
+
+<> Remove all IMG tags
+
+<> Testimonial image seems to hover above header
 
 <> Add animations
     <> Animate the hover
     <> Animate image
     <> Animate on scroll
+    <> Page transitions
 
 <> Update the README
