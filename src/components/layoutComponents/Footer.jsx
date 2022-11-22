@@ -11,7 +11,7 @@ export default function Footer() {
     <div id="footer-wrapper" className="bg-very-dark-blue">
       <footer className=" mx-auto max-w-[1280px] px-[16px] py-[96px]">
         <StaticImage
-          src="../images/logo-footer.svg"
+          src="../../images/logo-footer.svg"
           className="mb-[60px]"
           alt="logo"
         />
@@ -27,7 +27,7 @@ export default function Footer() {
               className="mb-[32px] flex items-center footer-breakpoint:mb-[16px]"
             >
               <StaticImage
-                src="../images/icon-phone.svg"
+                src="../../images/icon-phone.svg"
                 className="mr-[28px]"
                 alt="phone"
               />
@@ -39,7 +39,7 @@ export default function Footer() {
               className="flex items-center"
             >
               <StaticImage
-                src="../images/icon-email.svg"
+                src="../../images/icon-email.svg"
                 className="mr-[28px]"
                 alt="email"
               />

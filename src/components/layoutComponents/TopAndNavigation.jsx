@@ -51,7 +51,7 @@ export default function TopAndNavigation() {
         <header className="mx-auto flex w-screen max-w-[1280px] items-center justify-between py-[32px] px-[16px] min-desktop-width:px-[32px]">
           <Link to="/">
             <StaticImage
-              src="../images/logo.svg"
+              src="../../images/logo.svg"
               className="w-[116px] min-desktop-width:w-auto"
               alt="logo"
             />
@@ -66,7 +66,7 @@ export default function TopAndNavigation() {
             onClick={() => setShowMobileNav(true)}
           >
             <StaticImage
-              src="../images/hamburger.svg"
+              src="../../images/hamburger.svg"
               width={32}
               height={32}
               alt="mobile navigation opening icon"
@@ -86,7 +86,7 @@ export default function TopAndNavigation() {
               onClick={() => setShowMobileNav(false)}
             >
               <StaticImage
-                src="../images/close.svg"
+                src="../../images/close.svg"
                 alt="close image"
                 width={32}
                 height={32}
