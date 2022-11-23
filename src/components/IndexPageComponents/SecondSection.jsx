@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import Testimonial from "./testimonial";
+import { StaticImage } from "gatsby-plugin-image";
 
 const kylesTestimonee =
   "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.";
@@ -13,13 +14,13 @@ const SecondSection = () => {
   return (
     <>
       <section className="">
-        <img
-          src="./bg-curve-mobile.svg"
+        <StaticImage
+          src="../../images/bg-curve-mobile.svg"
           alt="curved background"
           className="mobile:hidden"
         />
-        <img
-          src="./bg-curve-desktop.svg"
+        <StaticImage
+          src="../../images/bg-curve-desktop.svg"
           alt="curved background"
           className="hidden w-screen mobile:block"
         />
@@ -30,8 +31,8 @@ const SecondSection = () => {
             className="flex w-[100%] max-w-[1280px] flex-col 
             items-center justify-between px-[16px] second-section-breakpoint:mx-auto second-section-breakpoint:flex-row-reverse second-section-breakpoint:items-center second-section-breakpoint:px-[32px]"
           >
-            <img
-              src="./illustration-2.svg"
+            <StaticImage
+              src="../../images/illustration-2.svg"
               alt="second illustration"
               className="mb-[132px] w-[100%] max-w-[440px] second-section-breakpoint:mb-0 second-section-breakpoint:max-w-[535px]"
             />
