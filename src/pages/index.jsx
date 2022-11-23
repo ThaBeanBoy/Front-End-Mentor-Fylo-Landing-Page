@@ -27,7 +27,7 @@ export const Head = () => {
         rel="icon"
         type="image/x-icon"
         sizes="32x32"
-        href={`${window.location.href}favicon-32x32.png`}
+        href={"/favicon-32x32.png"}
       />
 
       <title>Frontend Mentor | Fylo landing page with two column layout</title>
