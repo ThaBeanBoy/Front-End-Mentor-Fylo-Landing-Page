@@ -33,6 +33,8 @@ Users should be able to:
 
 ### Links
 
+- [Live Site](https://front-end-mentor-fylo-landing-page-mvce.vercel.app/)
+- [Repo](https://github.com/ThaBeanBoy/Front-End-Mentor-Fylo-Landing-Page)
 - [Gatsby Js](https://your-live-site-url.com)
 - [React Icons](https://react-icons.github.io/react-icons/)
 
